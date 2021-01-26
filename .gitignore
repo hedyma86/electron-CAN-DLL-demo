@@ -1,0 +1,7 @@
+/.idea/
+/.git/
+/node_modules/
+/www/
+package.json
+/npm-debug.log
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <title>demo for CAN communication By hedyMa</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+<body>
+<button id="connect">连接并启动CAN</button>
+
+<button id="getInfo">读取设备信息</button>
+<button id="close">关闭设备</button>
+
+<hr>
+<input type="text" value="0" id="inp">
+<button id="sendData">发送数据</button>
+
+
+<fieldset>
+    <legend>消息区</legend>
+    <div id="msg">
+
+    </div>
+</fieldset>
+
+<div>
+    <p>版权所有 hedyma 306616770</p>
+    <p>本示例为electron调用dll的demo，同时包含结构体等数据类型的解析方式。</p>
+    <p>有问题欢迎指正</p>
+</div>
+</body>
+<script type="module" src="render.js"></script>
+</html>
