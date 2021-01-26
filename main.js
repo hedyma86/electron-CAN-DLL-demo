@@ -80,8 +80,6 @@ ipcMain.on('closeWindow',(event,arg)=>{
 //const menu = Menu.buildFromTemplate(template);
 //Menu.setApplicationMenu(menu);
 
-
-
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
@@ -102,7 +100,7 @@ function createWindow() {
             nodeIntegration: true,
            // preload: path.join(__dirname, 'preload.js')
         },
-        title:'45002上位机软件（AE版-V1.0）'
+        title:'demo for CAN communication By hedyMa'
     })
 
     // and load the index.html of the app.
